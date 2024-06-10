@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body, .roboto-medium{
+    background-color:hsl(235, 18%, 26%);
+}
+.box{
+    position: absolute;
+    margin: 110px;
+    left: 230px;
+    background-color: hsl(0, 0%, 100%);
+    height: calc(1440px/4);
+    width: calc(1440px/2.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.partone{
+    width: calc(1440px/4);
+    margin-left: 20px;
+}
+h1{
+    color:hsl(235, 18%, 26%);
+}
+#p{
+    color:  hsl(235, 18%, 26%);
+    font-size: 14px;
+    margin:16px 0px;
+    line-height: 20px;
+}
+#email{
+    font-size: 10px;
+    margin: 24px 0px 8px 0px;
+}
+.img{
+    height: 12px;
+}
+.list{
+    color:hsl(235, 18%, 26%);
+    line-height: 20px;
+    list-style: none;
+    margin-left: 28px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.listx{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    top: 145px;
+}
+#email-error{
+    font-size: 10px;
+    position: absolute;
+    top: 227px;
+    left: 240px;
+    color: red;
+}
+input[type="email"]{
+    border-color: hsl(231, 7%, 60%);
+    border-style: solid;
+    width: 300px;
+    height: 36px;
+    border-radius: 6px;
+    color: #000F37;
+    padding: 14px;
+}
+input[type="submit"]{
+    background-color: hsl(235, 18%, 26%);
+    border: none;
+    width: 300px;
+    height: 36px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 12px;
+}
+input[type="submit"]:hover{
+    background-image: linear-gradient(to right, #f0477a, #ff6347);
+    box-shadow: 2px 8px 16px 7px #f8beca;
+    border: none;
+    width: 300px;
+    height: 36px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 12px;
+    cursor: pointer;
+} 
+.pageimg{
+height: calc(1440px/4.3);
+}
